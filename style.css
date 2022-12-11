@@ -1,0 +1,240 @@
+html{
+scroll-behavior: smooth;
+}
+
+.navbar{
+    margin: 0;
+    padding: 20px;
+    height: 70px;
+   background-color: #640404;
+    
+}
+.navicon{
+  margin-left: auto;
+  
+}
+
+.navicon img{
+    height: 50px;
+}
+
+.navbar-nav .nav-item{
+    padding-top: 20px;
+}
+
+.navbar-nav .nav-item a:hover{
+   color: chartreuse;
+}
+
+/* MAIN COLOR- body */
+.container-fluid{
+    margin: 0;
+    padding-top: 60px;
+    background-color: #0c0c0c;
+}
+
+
+/* CARD-AREA img background */
+.cardimg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(CONCEPT.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+/* MARVEL logo */
+.logo{
+    height: 80px;
+}
+
+
+
+
+
+
+
+/*NAVIGATION SIDE*/
+.nav-side{
+    height: auto;
+    background:transparent;
+    color: #b7b7b7;
+    float: left;
+    position: fixed;
+    margin-left: 4px;
+
+}
+
+
+.nav-side a{
+    color: #b7b7b7;
+}
+
+.nav-side a:hover{
+    color: yellow;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+
+
+
+
+/* NavSide Template - applied main page and external page*/
+.navSidelink{
+    position: absolute;
+    list-style: none;
+    float: left;
+    top: 200px;
+    left: 20px;
+}
+
+.navSidelink li{
+    color: #b7b7b7;
+}
+
+.navSidelink li:hover{
+    text-decoration: none;
+    color: yellow;
+    transition: 0.5s;
+    transform: scale(1.2);
+
+}
+
+
+
+.navSidelink a{
+    text-decoration: none;
+    color: #b7b7b7;
+}
+
+.navSidelink a:hover{
+    text-decoration: none;
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+/* CARDS  -img*/
+.card-image-top{
+    max-height: 250px;
+   
+}
+
+.cardCast{
+    transition: 0.3s;
+}
+.cardCast:hover{
+    transform: scale(1.1);
+}
+
+
+/* MEDIA */
+
+@media (max-width: 1144px){
+    .navSidelink{
+        display: none;
+    }
+
+}
+
+
+/* accordion */
+.accordion-button:hover{
+    background-color: gold;
+}
+
+
+
+.accordion-button h4{
+    text-align: end;
+    margin-left: auto;
+}
+
+.accordion-item{
+    background-color: #fc7c7c;
+}
+
+.accordion-body{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* TITLES MARVEL */
+.marvelCast{
+   margin-left: 50px;
+   font-family: sans-serif;
+
+}
+
+.Title{
+    color: red;
+}
+
+
+
+
+h1{
+font-family: 'Abril Fatface', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Marvel', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Xanh Mono', monospace;
+}
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.cardCast{
+    box-shadow: 10px, 10px, 20px, 20px;
+}
+
+
+
+.overmarvel{
+    background-image: url(Marvel.jpg);
+    
+}
+
+
+
+
+/* footer */
+
+.footIcon{
+    color: 	#640404;
+    transition: 0.3s;
+}
+
+
+
+.footIcon :hover{
+    color: red;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.footIcon a{
+    padding: 10px;
+}
+
+
